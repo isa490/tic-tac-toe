@@ -1,0 +1,46 @@
+body {
+    transition: background-color .1s ease-in-out;
+    background-color: #2b2b1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+td {
+    width: 33.3%;
+    height: 33.3%;
+    cursor: pointer;
+    border: 2px solid #fff; /* Bordas mais grossas para destacar */
+}
+
+.g1 {
+    border-bottom: solid 1px #fff;
+    border-right: solid 1px #fff;
+}
+
+.g2 {
+    border-bottom: solid 1px #fff;
+}
+
+.g3 {
+    border-right: solid 1px #fff;
+}
